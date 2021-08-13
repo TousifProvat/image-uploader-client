@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1366px;
+  height: 95vh;
+  margin: 0 auto;
+}
+
+.credentials {
+  position: absolute;
+  bottom: 2%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  color: #a9a9a9;
+}
+.credentials a {
+  color: #a9a9a9;
+}
+
+.creator-name {
+  font-weight: 700;
+}
