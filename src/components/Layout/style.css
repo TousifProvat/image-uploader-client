@@ -5,11 +5,12 @@
   max-width: 1366px;
   height: 95vh;
   margin: 0 auto;
+  position: relative;
 }
 
 .credentials {
   position: absolute;
-  bottom: 2%;
+  bottom: 0;
   font-size: 14px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
