@@ -18,9 +18,15 @@ function UploadPage(props) {
   const dispatch = useDispatch();
   const history = useHistory();
 
+  const onSubmit = () => {
+    const form = new FormData();
+    form.append('sharedImage', sharedImage);
+    dispatch(uploadImage(form));
+  };
+
   useEffect(() => {
     if (sharedImage !== '') {
-      dispatch(uploadImage(sharedImage));
+      onSubmit();
       history.push('/uploads');
     }
   }, [sharedImage]);

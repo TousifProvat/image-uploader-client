@@ -6,7 +6,13 @@ import PreviewCard from '../../components/previewCard';
 const UploadPreview = () => {
   const upload = useSelector((state) => state.upload);
 
-  return <Layout>{upload.loading ? <Loader /> : <PreviewCard />}</Layout>;
+  const image = upload.image;
+
+  return (
+    <Layout>
+      {upload.loading ? <Loader /> : <PreviewCard imgSrc={image.imageLink} />}
+    </Layout>
+  );
 };
 
 export default UploadPreview;

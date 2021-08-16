@@ -3,7 +3,7 @@ import { uploadConstants } from '../actions/constants';
 const initialState = {
   error: null,
   loading: false,
-  pictureLink: '',
+  image: {},
 };
 
 export default (state = initialState, action) => {
@@ -17,7 +17,7 @@ export default (state = initialState, action) => {
       return (state = {
         ...state,
         loading: false,
-        pictureLink: action.payload.piclink,
+        image: action.payload.image,
       });
     default:
       return state;
