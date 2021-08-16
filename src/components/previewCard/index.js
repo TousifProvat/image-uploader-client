@@ -20,12 +20,13 @@ const PreviewCard = (props) => {
         </div>
         <p className="successText">Uploaded Successfully!</p>
       </div>
-      <div className="contentPreview">
-        <img src={props.imgSrc} />
-      </div>
+      <div
+        className="contentPreview"
+        style={{ backgroundImage: `url(${props.imgSrc})` }}
+      ></div>
       <div className="previewLink">
-        <input ref={inputRef} readOnly value={props.imgSrc} />
-        <button onClick={copyCodeToClipboard}> Copy link</button>
+        <input type="text" ref={inputRef} readOnly value={props.imgSrc} />
+        <button onClick={copyCodeToClipboard}>Copy link</button>
       </div>
     </div>
   );

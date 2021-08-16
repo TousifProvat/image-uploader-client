@@ -39,7 +39,10 @@
   height: 224px;
   width: 338px;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 12px;
+  background-position: center;
 }
 
 .contentPreview img {

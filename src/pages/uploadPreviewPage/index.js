@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 import Loader from '../../components/Loader';
 import PreviewCard from '../../components/previewCard';
 
-const UploadPreview = () => {
+const UploadPreview = (props) => {
   const upload = useSelector((state) => state.upload);
 
   const image = upload.image;
