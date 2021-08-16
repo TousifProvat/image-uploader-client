@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Image Uploader</h1>
 
-## Available Scripts
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://imageuploader-tap.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://{your-url-to-the-solution}">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `yarn test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `yarn build`
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Where can I see your demo?
+- you can see my demo here:
+  <a href="https://imageuploader-tap.netlify.app/">
+  Demo
+  </a>
+- What was your experience?
+- It was a great experience. Learned many things.
+- What have you learned/improved?
+- Learned how to react-dropzone package. and how to think to make a app.
+- Your wisdom? :)
+- Google if you stuck! Dont only copy and paste try to understand.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-### `yarn eject`
+- [React](https://reactjs.org/)
+- [Node](https://nodejs.org/en/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Upload your image
+- Share your image with a link
 
-## Learn More
+## How To Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Example: -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### Code Splitting
+```bash
+# Clone this repository
+Frontend:
+$ git clone https://github.com/TousifProvat/image-uploader-client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend:
+$ git clone https://github.com/TousifProvat/image-uploader-server
 
-### Analyzing the Bundle Size
+# Install dependencies
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Run the app
+$ npm start
+```
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-### Advanced Configuration
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website [https://tousif-ahmed.netlify.app/](https://tousif-ahmed.netlify.app/)
+- GitHub [@TousifProvat](https://github.com/TousifProvat)
+- Twitter [@_tousifahmed_](https://twitter.com/_tousifahmed_)
