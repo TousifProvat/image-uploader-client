@@ -20,13 +20,8 @@ function UploadForm(props) {
     props.setSharedImage(e[0]);
   };
 
-  // const onSubmit = () => {
-  //   props.onSubmit && props.onSubmit();
-  // };
-
   const { getRootProps, getInputProps, fileRejections } = useDropzone({
     noClick: true,
-    // onDrop: onDrop,
     accept: 'image/jpeg, image/png, image/gif',
     onDropAccepted: onDrop,
   });
