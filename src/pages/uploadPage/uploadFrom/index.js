@@ -39,7 +39,7 @@ function UploadForm(props) {
               textAlign: 'center',
             }}
           >
-            {err.message}
+            File type must be jpeg, png, gif.
           </li>
         );
       } else if (err.code === 'file-too-large') {
