@@ -24,21 +24,39 @@ function UploadForm(props) {
     noClick: true,
     accept: 'image/jpeg, image/png, image/gif',
     onDropAccepted: onDrop,
+    maxSize: 10000000,
   });
 
   const fileRejectionItems = fileRejections.map(({ file, errors }) =>
-    errors.map((e, index) => (
-      <li
-        style={{
-          color: `red`,
-          listStyle: 'none',
-          textAlign: 'center',
-        }}
-        key={index}
-      >
-        {e.message}
-      </li>
-    ))
+    errors.map((err, index) => {
+      if (err.code === 'file-invalid-type') {
+        return (
+          <li
+            key={index}
+            style={{
+              color: `red`,
+              listStyle: 'none',
+              textAlign: 'center',
+            }}
+          >
+            {err.message}
+          </li>
+        );
+      } else if (err.code === 'file-too-large') {
+        return (
+          <li
+            key={index}
+            style={{
+              color: `red`,
+              listStyle: 'none',
+              textAlign: 'center',
+            }}
+          >
+            File bigger than 10mb
+          </li>
+        );
+      }
+    })
   );
 
   return (
